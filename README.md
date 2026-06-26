@@ -1,19 +1,9 @@
-# moc-templates
+# MOC-issues
 
-This repository serves two purposes:
+This repository is for high-level tracking of issues at the Mass Open Cloud.
+We will be phasing away from [ops-issues](https://github.com/CCI-MOC/ops-issues) as we bring up our HIPAA & NIST compliant platform.
 
-- It may be used as a template repository when creating new repositories in the [CCI-MOC][] organization.
-- It is the canonical location of the `LICENSE` and `CONTRIBUTING.md` files.
+If you are committing code in another repository that impacts issues in this repository, you may be interested in:
 
-[cci-moc]: https://github.com/CCI-MOC/
-
-## Contributing
-
-We'd love to have you contribute! Please refer to our [contribution
-guidelines](CONTRIBUTING.md) for details.
-
-## License
-
-[Apache 2.0 License](LICENSE).
-
-The code is provided as-is with no warranties.
+- [Closing issues across repositories](https://github.blog/2013-03-18-closing-issues-across-repositories/)
+- [Autolinked references and URLs](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/autolinked-references-and-urls)
