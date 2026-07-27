@@ -12,7 +12,7 @@ assignees: ''
 ## Completion Criteria
 
 ## Description
-- [ ] 
+- [ ]
 
 ## Completion dates
 Desired - 20YY-MM-DD
