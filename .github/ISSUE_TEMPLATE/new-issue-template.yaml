@@ -1,0 +1,33 @@
+name: Create a new issue
+description: |
+  Use this form to create a new issue for the MOC 2.0 environment.
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a clear summary of the issue, including what needs to be done or what problem needs to be solved.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Explain why this issue is important and what impact it has on the project or its users.
+    validations:
+      required: true
+  - type: textarea
+    id: completion
+    attributes:
+      label: Completion criteria
+      description: Describe the specific conditions that must be met for this issue to be considered complete.
+    validations:
+      required: true
+  - type: textarea
+    id: dates
+    attributes:
+      label: Completion dates
+      description: Indicate when this work needs to be completed, if applicable.
+      value: |
+        - Desired: 20YY-MM-DD
+        - Required: 20YY-MM-DD
