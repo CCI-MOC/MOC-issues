@@ -34,4 +34,5 @@ Cluster Name - <What your cluster is named, NA if not a cluster>
 
 ## Action Items
 - [ ] @joachimweyl Update Project spreadsheet and tag PM (currently Robby)
-- [ ] @hpdempsey approve hardware usage
+- [ ] @hpdempsey Approve hardware usage
+- [ ] @joachimweyl Assign engineer to allocate hardware
