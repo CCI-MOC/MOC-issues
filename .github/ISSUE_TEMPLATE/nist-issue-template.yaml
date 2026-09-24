@@ -1,0 +1,55 @@
+name: Create a new NIST issue
+description: |
+  Use this form to create a new issue for the MOC 2.0 environment.
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a clear summary of the issue, including what needs to be done or what problem needs to be solved.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Explain why this issue is important and what impact it has on the project or its users.
+    validations:
+      required: true
+  - type: textarea
+    id: completion
+    attributes:
+      label: Completion criteria
+      description: Describe the specific conditions that must be met for this issue to be considered complete.
+    validations:
+      required: true
+  - type: textarea
+    id: nist_controls
+    attributes:
+      label: NIST 800-171 Control Numbers
+      description: Insert in a bulleted list all relevant NIST SP 800-171 control numbers associated with this issue.
+      value: |
+        - 3.1.1
+        - 3.1.2
+    validations:
+      required: true
+  - type: textarea
+    id: assessment_method_evidence
+    attributes:
+      label: Assessment Method and Evidence
+      description: Detail the assessment method(s) used (Examine, Interview, Test) along with supporting evidence, documentation, or links.
+      value: |
+        - **Assessment Method:** Examine / Interview / Test
+        - **Evidence / Artifacts:**
+    validations:
+      required: true
+  - type: textarea
+    id: dates
+    attributes:
+      label: Completion dates
+      description: Indicate when this work needs to be completed, if applicable.
+      value: |
+        - Desired: 20YY-MM-DD
+        - Required: 20YY-MM-DD
+    validations:
+      required: true
